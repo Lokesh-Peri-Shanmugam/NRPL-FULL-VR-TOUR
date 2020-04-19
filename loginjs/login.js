@@ -45,7 +45,7 @@ function getInfo() {
 		// check is user input matches username and password of a current index of the objPeople array
 		if(username == objPeople[i].username && password == objPeople[i].password) {
 			console.log(username + " is logged in!!!")
-			location.replace("https://lokesh-peri-shanmugam.github.io/NRPL-FULL-VR-TOUR/");
+			location.replace("https://lokesh-peri-shanmugam.github.io/NRPL-FULL-VR-TOUR/nrp;vrtour.htm");
 			// stop the function if this is found to be true
 			return
 		}
